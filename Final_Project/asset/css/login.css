@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    background-color: #f4f7fc;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Form Input Styling */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 1em;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fefefe;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #2a9d8f;
+    outline: none;
+}
+
+/* Submit Button and Actions */
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #21867a;
+    transform: scale(1.03);
+}
+
+a {
+    text-decoration: none;
+    color: #2a9d8f;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #21867a;
+}

@@ -1,0 +1,104 @@
+/* General styling for the dashboard */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    align-items: right;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.search-form {
+    margin-top: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.search-form input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form input[type="submit"]:hover {
+    background-color: #1d3557;
+}
+
+/* Section styling */
+.welcome-section,
+.job-section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.5em;
+    color: #1d3557;
+}
+
+#jobList {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin: 5px 0;
+    }
+
+    .search-form {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .welcome-section,
+    .job-section {
+        margin: 10px;
+        padding: 15px;
+    }
+}

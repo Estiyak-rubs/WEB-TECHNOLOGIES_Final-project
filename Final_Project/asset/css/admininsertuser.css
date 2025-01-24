@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f8;
+    margin: 0;
+    padding: 0;
+    color: #1d3557;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #1d3557;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #457b9d;
+}
+
+/* Message Styling */
+.message {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}

@@ -1,0 +1,107 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Neutral light background */
+    color: #333;
+    line-height: 1.6; /* Enhanced readability */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background: linear-gradient(90deg, #4CAF50, #2E7D32); /* Gradient matching green tones */
+    color: #fff;
+    padding: 15px 20px;
+    text-align: right;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 500; /* Slightly bolder text for better visibility */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffeb3b; /* Bright hover effect for better interaction feedback */
+}
+
+/* Section Styling */
+section {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px; /* Increased padding for balanced spacing */
+}
+
+section h2 {
+    font-size: 28px;
+    color: #4CAF50; /* Consistent with navigation colors */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for emphasis */
+    margin-bottom: 20px; /* Added spacing below headings */
+}
+
+/* Profile Info Styling */
+.profile-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Modern card-like design */
+    text-align: left;
+}
+
+.profile-container p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555; /* Slightly softer text color for paragraph readability */
+}
+
+.profile-container p strong {
+    color: #4CAF50; /* Highlighted text matches the theme */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 10px 10px;
+    }
+
+    section h2 {
+        font-size: 24px; /* Adjusted size for smaller screens */
+    }
+
+    .profile-container {
+        padding: 15px; /* Reduced padding for smaller devices */
+    }
+
+    .profile-container p {
+        font-size: 16px; /* Smaller font size for better fit */
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 14px; /* Smaller text for mobile screens */
+    }
+
+    section h2 {
+        font-size: 22px; /* Adjusted for extra-small screens */
+    }
+
+    .profile-container p {
+        font-size: 14px; /* More compact text */
+    }
+}

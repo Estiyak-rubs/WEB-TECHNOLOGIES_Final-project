@@ -1,0 +1,99 @@
+/* General Section Styling */
+section {
+    margin: 20px;
+    display: flex;
+    gap: 20px; /* Consistent gap between items */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Job Section Styling */
+#job {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#job:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Section Styling */
+#form {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fefefe;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    padding: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+    #job,
+    #form {
+        margin-right: 0;
+    }
+}
+
+/* Additional Enhancements */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add subtle hover effects for interactive areas */
+button, input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add padding to text inputs */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Smooth transition for all hover effects */
+* {
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,138 @@
+
+/*clint home style */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Basic styling for the body */
+body {
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Header (Navigation bar) */
+header {
+    background-color: #1d3557;
+    padding: 20px 0;
+}
+
+.navbar .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.navbar .logo h1 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar .nav-links li a:hover {
+    color: #f1faee;
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Welcome section */
+.welcome h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #21867a;
+}
+
+/* Search Form */
+.search-form {
+    margin: 30px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-input:focus {
+    border-color: #2a9d8f;
+}
+
+.btn-secondary {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #21867a;
+}
+
+/* Job listing section */
+.jobs fieldset {
+    border: 2px solid #2a9d8f;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.jobs legend {
+    font-size: 22px;
+    color: #333;
+    padding: 0 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1d3557;
+    color: white;
+}
